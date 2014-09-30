@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+private static \$has_one = array(
+	'${1:this}' => '${2:this}'	
+); 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hasone</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
