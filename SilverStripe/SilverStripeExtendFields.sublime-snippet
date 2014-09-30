@@ -1,11 +1,13 @@
 <snippet>
-<content><![CDATA[
-private static \$has_one = array(
-	'${1:thing}' => '${2:as}'	
-); 
+	<content><![CDATA[
+public function getCMSFields() {
+	\$fields = parent::getCMSFields();
+	${1:extend}
+	return \$fields;
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>hasone</tabTrigger>
+	<tabTrigger>extendfields</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
