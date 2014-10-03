@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-private static \$belongs_many_many = array(
+private static \$many_many = array(
 	'${1:thing}' => '${2:as}'	
 ); 
 ]]></content>
