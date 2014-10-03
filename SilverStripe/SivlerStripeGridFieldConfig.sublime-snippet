@@ -1,6 +1,9 @@
 <snippet>
 <content><![CDATA[
 \$config = GridFieldConfig_RelationEditor::create();
+\$config->getComponentByType('GridFieldDataColumns')->setDisplayFields(array(
+	'${1:Name}' => '${2:As}'
+));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gridconfig</tabTrigger>
