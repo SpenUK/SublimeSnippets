@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+\$${1:thing}sField = new GridField(
+	'${2:thing}s',
+	'${2:thing}',
+	\$this->${2:thing}s(),
+	\$config
+);
+\$fields->addFieldToTab('${3:field name}', \$${1:thing}sField);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newgridfield</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
+
