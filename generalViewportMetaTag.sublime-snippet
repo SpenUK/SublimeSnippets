@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1" width="device-width">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vpmeta</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
